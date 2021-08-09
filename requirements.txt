@@ -1,0 +1,26 @@
+Requirements:
+->python3 environment
+->pip3: to install python packages
+->nltk and spacy: for NLP operations
+    #spaCy(version 2.2.4):
+    python -m spacy download en_core_web_sm
+    #nltk:
+    pip install nltk
+    python -m nltk.downloader words
+    python -m nltk.downloader stopwords
+->pdfminer,pyMUpdf: Extracting text from PDF files
+
+->docx2txt: Extracting text from docx files
+-> pickle : to load pickle data for training
+-> frameworks: for web application
+    Flask -> BACKEND
+    React js -> FRONTEND
+
+#To run the web app:
+ 1)BACKEND   -> python server.py
+ 2)FRONTEND  -> npm start
+ 3)upload any .pdf/.docx file using file upload option
+   
+
+
+
